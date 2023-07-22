@@ -1,5 +1,6 @@
 import './App.css'
 import Counter from './components/UseEffect/Counter'
+import CounterTwo from './components/UseEffect/CounterTwo'
 import ClassCounter from './components/UseState/ClassCounter'
 import HookCounter from './components/UseState/HookCounter'
 import HookCounterFour from './components/UseState/HookCounterFour'
@@ -14,7 +15,7 @@ const App = () => {
             {/* <HookCounterTwo /> */}
             {/* <HookCounterThree /> */}
             {/* <HookCounterFour /> */}
-            <Counter />
+            <CounterTwo />
         </div>
     )
 }
